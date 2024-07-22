@@ -66,7 +66,7 @@ const VideoSection = ({ films }) => {
         ) : (
           <div key={films[0].episode_id} className="p-4">
             <div className="text-white flex items-center min-h-custom">
-              <div className="mt-[30rem]">
+              <div className="mt-72">
                 <h1 className="text-[42px] font-bold mb-2">{films[0].title}</h1>
                 <div className="flex items-center mb-4">
                   <p className="bg-[#0249A6] text-[#FFE546] p-2 mr-2">2022</p>
