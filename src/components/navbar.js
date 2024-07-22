@@ -74,10 +74,10 @@ const Header = () => {
 
       {menuOpen && (
         <div className="md:hidden relative">
-          <div className="w-full bg-white pb-4 px-4 z-10">
+          <div className="w-full bg-white pb-4 px-4 z-10 mt-4">
             <Link
               href="/"
-              className="text-secondary-foreground hover:text-secondary mb-4 flex justify-center mt-4"
+              className="text-secondary-foreground hover:text-secondary mb-4 flex justify-center"
             >
               Home
             </Link>
