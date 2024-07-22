@@ -18,7 +18,7 @@ const SignIn = () => {
     <div className='pt-4 px-4 md:px-12 bg-[#01449C] h-screen'>
       <Navbar />
       <div className="flex items-center justify-center">
-        <div className="bg-white p-12 rounded-xl shadow-md w-[612px] h-auto md:h-[710px] flex items-center mt-12 px-20">
+        <div className="bg-white p-12 rounded-xl shadow-md w-[612px] h-auto md:min-h-customSignin flex items-center mt-12 px-20">
           <div className='w-full'>
             <h1 className="text-[32px] text-[#041836] mb-6">Sign In</h1>
             <p className='text-[#888888] text-base font-normal mb-2'>Email</p>

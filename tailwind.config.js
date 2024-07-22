@@ -17,7 +17,8 @@ module.exports = {
       },
       minHeight: {
         'custom': 'calc(100vh - 208px)',
-        'customSigin': 'calc(100vh - 80px)'
+        'customSigin': 'calc(100vh - 80px)',
+        'customSignin': 'calc(100vh - 170px)'
       },
       colors: {
         'custom-blue': 'rgba(4, 24, 54, 0.1)',
